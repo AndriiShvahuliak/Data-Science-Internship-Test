@@ -25,3 +25,9 @@ The task is approached using a **fine-tuned BERT model** for Named Entity Recogn
 - **labeled_mountains_dataset.conll**: Custom dataset in CoNLL format used for training.
 - **model_weights.zip**: Pre-trained model weights used for inference (to be downloaded separately).
 
+## How to Run
+
+### 1. Train the Model
+
+To train the model on your dataset, run the `train_model.py` script. Ensure you have the necessary dependencies installed, such as `transformers` and `datasets`.
+Then run `model_inference.py` script to recognize mountain names.
