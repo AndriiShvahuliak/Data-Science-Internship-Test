@@ -23,7 +23,6 @@ The task is approached using a **fine-tuned BERT model** for Named Entity Recogn
 - **train_model.py**: Script to fine-tune the BERT model on the dataset.
 - **inference_model.py**: Script to perform inference and predict mountain names in new sentences.
 - **labeled_mountains_dataset.conll**: Custom dataset in CoNLL format used for training.
-- **model_weights.zip**: Pre-trained model weights used for inference (to be downloaded separately).
 
 ## How to Run
 
@@ -31,3 +30,5 @@ The task is approached using a **fine-tuned BERT model** for Named Entity Recogn
 
 To train the model on your dataset, run the `train_model.py` script. Ensure you have the necessary dependencies installed, such as `transformers` and `datasets`.
 Then run `model_inference.py` script to recognize mountain names.
+
+P.S. Dataset was created by ChatGPT, also model_weights are in the main ipynb file and they are located at Google Drive
